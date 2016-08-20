@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//EL POPULAR HOLA MUNDO EN C++
+#include <iostream>
+using namespace std;
+int main()
+{
+cout<<"hola mundo"<<endl;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include <stdio.h>
+int main()
+{
+printf("hola mundon"l;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//FACTORIAL NUMERICO en C
+#include <stdio.h>
+
+int main ()
+{
+int factorial, result=1;
+
+printf("introduzca el numero al cual aplicarle factorial:n";
+scanf("%i", &factorial);
+if(factorial>=1)
+while(factorial>=1){
+result=result*factorial;
+factorial--;
+}
+else
+printf("introduzca dato valido";
+printf("el resultado es: %in", result);
+return 0;
+} 
